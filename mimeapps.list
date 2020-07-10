@@ -1,0 +1,7 @@
+
+[Default Applications]
+image/png=sxiv.desktop
+image/jpg=sxiv.desktop
+image/jpeg=sxiv.desktop
+application/pdf=org.pwmt.zathura-pdf-poppler.desktop
+

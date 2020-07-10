@@ -1,0 +1,23 @@
+abbr grep 'grep --color=auto'
+abbr c 'clear'
+abbr v 'nvim'
+abbr vim 'nvim'
+abbr mkdir 'mkdir -p'
+abbr nano 'nvim'
+abbr vi 'nvim'
+abbr cff "nvim ~/.config/fish/config.fish"
+abbr pbcopy 'xclip -selection clipboard'
+abbr pbpaste 'xclip -selection clipboard -o'
+abbr tor "transmission-cli -w $HOME/Torrents"
+#fzf search functions
+alias cf 'fastconf'
+alias l 'damnfast'
+abbr ps 'psfzf'
+abbr vpnc 'sudo protonvpn c -f'
+abbr vpns 'sudo protonvpn s'
+abbr vpnd 'sudo protonvpn d'
+alias feh 'devour feh'
+alias sxiv 'devour sxiv'
+alias mpv 'devour mpv'
+alias zathura 'devour zathura'
+alias wallset 'feh --bg-scale'

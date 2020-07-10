@@ -1,0 +1,45 @@
+#plain (default)
+#solarized-dark
+#solarized-light
+#slick
+#modern
+#bad-wolf
+#gruvbox-light
+#gruvbox-dark
+#space-villain
+
+[theme]
+name = "solarized-dark"
+[icons]
+name = "awesome"
+
+[[block]]
+block = "networkmanager"
+on_click = "st-e nmtui"
+
+[[block]]
+block = "disk_space"
+path = "/"
+alias = ""
+info_type = "available"
+unit = "GiB"
+
+[[block]]
+block = "temperature"
+collapsed = false
+interval = 15
+format = "{average}° avg"
+chip = "*-isa-*"
+
+[[block]]
+block = "sound"
+
+[[block]]
+block = "battery"
+driver = "upower"
+format = "{percentage}% ({time})"
+
+[[block]]
+block = "time"
+format = "%a %d/%b/%Y %H:%M"
+interval = 60
