@@ -1,5 +1,5 @@
 fish_vi_key_bindings
-bind -M insert -m default \eh 'commandline -f repaint'
+source $HOME/.config/fish/colors.fish
 bind -M insert -m default jk  'commandline -f repaint'
 set -x TERM xterm-256color
 set -x LC_ALL en_US.UTF-8

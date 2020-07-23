@@ -1,1 +1,1 @@
-/home/coutinho/.local/share/omf/themes/agnoster/fish_prompt.fish
+/home/coutinho/.local/share/omf/themes/default/fish_prompt.fish
