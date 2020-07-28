@@ -8,3 +8,5 @@ QtProject.conf
 matplotlib/
 nvim/plugged
 pulse/
+dconf/
+omf/

@@ -38,8 +38,7 @@ call plug#begin()
 	Plug 'junegunn/fzf.vim'
 	Plug 'stephpy/vim-yaml'
 call plug#end()
-"colorscheme gruvbox
-colorscheme solarized
+colorscheme gruvbox
 map <C-n> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree")
       \ && b:NERDTree.isTabTree())| q | endif 
@@ -49,8 +48,7 @@ noremap <Left> <NOP>
 noremap <Right> <NOP>
 noremap <C-c> "*y
 map <C-p> "*p
-"let g:airline_theme='minimalist'
-let g:airline_theme='solarized'
+let g:airline_theme='minimalist'
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#branch#enabled = 1
