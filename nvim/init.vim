@@ -38,7 +38,7 @@ call plug#begin()
 	Plug 'junegunn/fzf.vim'
 	Plug 'stephpy/vim-yaml'
 call plug#end()
-colorscheme gruvbox
+colorscheme default
 map <C-n> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree")
       \ && b:NERDTree.isTabTree())| q | endif 
