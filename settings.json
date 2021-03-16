@@ -1,0 +1,53 @@
+{
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "k"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "window.zoomLevel": 2,
+    "emmet.includeLanguages":{
+        "javascript":"javascriptreact"
+    },
+    "vim.highlightedyank.color": "rgba(120, 240, 170, 0.5)",
+    "launch": {
+
+        "configurations": [],
+        "compounds": []
+    },
+    "explorer.confirmDelete": false,
+    "window.menuBarVisibility": "toggle",
+    "workbench.colorTheme": "Monokai",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontFamily": "'Inconsolata','Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "files.autoSave": "onFocusChange",
+    "editor.wordWrap": "on",
+    "kite.showWelcomeNotificationOnStartup": false,
+    "editor.lineNumbers": "relative",
+    "terminal.external.linuxExec": "xterm",
+    "vim.statusBarColors.commandlineinprogress": "#000",
+    "vim.statusBarColors.insert": "#0ff00",
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#ffff00",
+        "statusBar.noFolderBackground": "#ffff00",
+        "statusBar.debuggingBackground": "#ffff00"
+    },
+    "vim.statusBarColors.easymotionmode": "",
+    "vim.statusBarColors.visualline": "#ffff00",
+    "vim.statusBarColors.visual": "#9acd32",
+    "vim.statusBarColorControl": true,
+    "editor.fontLigatures": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+    
+    ],
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.requireConfig": true,
+    "editor.formatOnSave": true,
+    "[json]": {
+
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace"
+    }
+}
